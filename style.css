@@ -1,0 +1,843 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Tangerine|Kaushan+Script|Cookie|Crete+Round');
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #313234;
+	height: 67px;
+}
+
+body {
+	margin: 0;
+	font-family: 'Open-sans', sans-serif;
+}
+
+.container {
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+nav .logo {
+
+	margin-right: 0;
+	padding-right: 0;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+nav .logo h5 {
+	color: #fff;
+	font-family: 'Cookie' , cursive;
+	font-size: 40px;
+	margin: 0;
+	font-weight: 300;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+nav .logo h5 span {
+	color: #d0acef;
+	font-size: 50px;
+}
+
+header > nav > ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	float: right;
+	transform: translateY(9px);
+}
+
+
+.row:before,
+.row:after {
+	content: "";
+	display: table;
+}	
+
+.row:after {	
+	clear: both;
+}
+
+header > nav > ul > li {
+	display: inline-block;
+}
+	
+
+header > nav > ul > li > a {
+	display: block;
+	line-height: 50px;
+	padding: 0 20px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;	
+}
+
+
+header > nav > ul  li > a:hover {
+	background-color: #444;
+}
+
+
+.hero {
+	background: url(http://ink.media.pl/photo/vineyard/hero.jpeg);
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	background-position: 50% 50%;
+	margin-top: 0;
+	padding: 0;
+}
+
+.slogan {
+	float: right;
+	max-width: 1000px;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-top: 200px;
+	padding-left: 20px;
+	padding-right: 300px;
+}
+
+.slogan h1 {
+	font-family: 'Cookie', cursive;
+	font-size: 100px;
+	font-weight: 500;
+	margin: 0;
+	margin-top: 30px;
+	margin-left: 40px;
+	padding-bottom: 0;
+}
+
+
+.slogan p {
+	font-size: 28px;
+	margin: 0;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	color: #fff;
+}
+	
+.feature {
+	width: 30%;
+	float: left;
+	min-height: 1px;
+	padding: 25px 15px;
+	text-align: center;
+	margin-top: 100px;
+	background-color: #ede6fd; 
+	margin-right: 20px;
+	border-left: solid 3px #bb9bdd;
+	border-top: solid 4px #9173b0;
+}
+
+
+
+.feature h4 {
+	margin-bottom: 40px;
+}
+
+.offset {
+	margin-left: 5%;
+}
+	
+.feature i {
+	font-size: 45px;
+	color: #5e308e;
+}
+
+section > .container {
+	margin: 100px auto;
+	text-align: center;
+	
+}
+
+.glass i,
+.glass {
+	color: #265127;
+	border-color: #265127;	
+}
+
+h4 {
+	font-family:'Cookie', cursive;
+	font-size: 55px;
+	font-weight: 300;
+	color: #5e308e;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+h3 {
+	font-family: 'Cookie', cursive;
+	color: #5e308e;
+	font-size: 70px;
+	font-weight: 500;
+	margin: 0;
+	margin-bottom: 60px;
+}
+
+h3 span {
+	color: #265127;
+}
+
+.taste {
+	color: #265127;
+}
+
+p {
+	font-family: 'Open-sans', sans-serif;
+	font-size: 18px;
+	color: #000;
+	line-height: 1.5em;
+}
+
+button {
+	width: 90px;
+	height: 90px;
+	border: double 10px;
+	border-radius: 45px;
+	background-color: #fff;
+	border-color: #5e308e;
+}
+
+button > i {
+	line-height: 90px;
+}
+
+.gallery {
+	text-align: center;
+}
+
+.row > .col-20a,
+.row > .col-20b,
+.row > .col-20c,
+.row > .col-20d,
+.row > .col-20e,
+.row > .col-20f {
+	float: left;
+	width: 20%;
+	height:250px;
+	position: relative;
+	display: block;
+}
+
+.row > .col-20a > .layer,
+.row > .col-20b > .layer,
+.row > .col-20c > .layer,
+.row > .col-20d > .layer,
+.row > .col-20e > .layer,
+.row > .col-20f > .layer {
+	float: left;
+	width: 100%;
+	height:250px;
+	display: none;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.row > .col-20a:hover > .layer,
+.row > .col-20b:hover > .layer,
+.row > .col-20c:hover > .layer,
+.row > .col-20d:hover > .layer,
+.row > .col-20e:hover > .layer,
+.row > .col-20f:hover > .layer {
+	display: block;
+}
+
+
+.row > .col-40a  {
+	float: left;
+	width: 40%;
+	height: 250px;	
+	position: relative;
+	display: block; 	
+	background: url(http://ink.media.pl/photo/vineyard/40aa.jpeg) 0/cover;	
+}
+
+.row > .col-40a > .layer,
+.row > .col-40b > .layer {
+	float: left;
+	width: 100%;
+	height: 250px;	
+	display: none;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.row > .col-40a > .layer > i,
+.row > .col-40b > .layer > i,
+.row > .col-20a > .layer > i,
+.row > .col-20b > .layer > i,
+.row > .col-20c > .layer > i,
+.row > .col-20d > .layer > i,
+.row > .col-20e > .layer > i,
+.row > .col-20f > .layer > i {
+
+	color: #fff;
+	font-size: 30px;
+	margin-top: 120px;
+	padding: 5px;
+}
+
+.row > .col-40a:hover > .layer,
+.row > .col-40b:hover > .layer {
+	display: block;
+}
+	
+.row > .col-20a {
+	background: url(http://ink.media.pl/photo/vineyard/20a.jpeg) 0/cover; 
+}
+.row > .col-20b {
+	background: url(http://ink.media.pl/photo/vineyard/20b.jpeg) 0/cover;
+}
+.row > .col-20c {
+	background: url(http://ink.media.pl/photo/vineyard/20c.jpeg) 0/cover;
+	
+}
+
+.row > .col-20d {
+	background: url(http://ink.media.pl/photo/vineyard/20d.jpeg) 0/cover;
+}
+
+.row > .col-20e {
+	background: url(http://ink.media.pl/photo/vineyard/20e.jpeg) 0/cover;
+}
+
+.row > .col-20f {
+		background: url(http://ink.media.pl/photo/vineyard/20f.jpg) 0/cover;
+}
+
+.row > .col-40b  {
+	float: left;
+	width: 40%;
+	height: 250px;	
+	position: relative;
+	display: block; 	
+	background: url(http://ink.media.pl/photo/vineyard/40b.jpg) 0/cover;	
+}
+
+.container.row {
+    width: 1300px;
+}
+
+.people {
+	width: 25%;
+	text-align: center;
+	float: left;
+	display: block;
+}
+	
+
+[class*="face_"] {
+   box-sizing: border-box;
+   border-radius: 50%;
+   height: 250px;
+   width: 250px;
+   text-align: center;
+   margin: 0 auto;
+   display: block;
+}
+
+.people > p {
+	font-weight: bold;
+	display: block;
+	color: #444;
+}
+
+.face_ginger {
+    background: url(http://ink.media.pl/photo/vineyard/irene1.jpg) 45%/cover;  
+}
+
+.face_smile {
+	background: url(http://ink.media.pl/photo/vineyard/ben1.jpeg) 45%/cover;
+}
+
+.face_hat {
+	background: url(http://ink.media.pl/photo/vineyard/marie.jpg) 0 5%/cover;
+}
+
+.face_grey {
+	background: url(http://ink.media.pl/photo/vineyard/fraser1.jpg) 45% 5%/cover;
+}
+
+.blurb {
+	background-color: #265127;
+	text-align: center;
+}
+
+.picture {
+	width: 33%;
+	float: left;
+	margin-top: 30px;
+}
+
+.wine {
+	width: 300px;
+	margin: 30px auto;
+}
+
+.headlines {
+	width: 67%;
+	float: left;
+	margin-top: 30px;
+}
+	
+.headlines h4 {
+	color: #fff;
+	margin: 0;
+	margin-top: 20px;
+	padding: 0;
+	font-weight: 300;
+}
+
+.text65,
+.text30 {
+	float: left;
+	text-align: left;
+	margin: 10px 10px;
+}
+
+.text65 > p,
+.text30 > p {
+	color: #fff;
+}
+
+.text65 {
+	width: 65%;
+}
+
+.text30 {
+	width: 30%
+}
+
+ .numbers {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+ .numbers > .nb {
+	font-family: 'Crete Round', serif;
+	color: #444;
+	font-size: 75px;
+	font-weight: 900;
+}
+
+.numbers > p {
+	font-weight: 900;
+	color: #5e308e;
+	margin: 0;
+	padding: 0;
+	font-size: 22px;
+}
+
+footer {
+	background-color: #444;
+}
+
+footer .container .row {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.about,
+.touch,
+.social {
+	width: 33%;
+	margin: 30px auto;
+	float: left;
+	text-align: left;
+	padding: 1%;
+}
+
+footer .about  h4,
+footer .touch  h4,
+footer .social h4 {
+	color: #fff;
+	font-family: 'Open-sans', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.about_us:after,
+.get_in:after,
+.social_m:after {
+	content: "";
+    border-top: 1px solid white;
+    width: 100px;
+    height: 5px;
+    margin-left: 10px;
+    top: 50%;
+    position: absolute;
+}	
+
+footer .about p,
+footer .touch p,
+footer .social p {
+	color: #fff;
+	font-family: 'Open-sans', sans-serif;
+	font-size: 16px;
+}
+
+.btn {
+	width: 40px;
+	height: 40px;
+	border-radius: 0;
+	border: none;
+	margin-right: 5px;
+	background-color: #9d7bb2;
+}
+
+.btn i {
+	font-size: 20px;
+	line-height: 40px;
+	color: #fff;	
+}
+
+.btn:hover {
+	background-color: #5e308e;
+}
+
+footer .contact .row {
+	width: 100%;
+	position: relative;
+}
+
+.add {
+	width: 100px;
+	float: left;
+} 
+
+.add p {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.date {
+	float: left;
+	width: 220px;
+	text-align: left;
+	
+}
+
+.date p {
+	margin: 0 5px;
+	padding: 0;
+}
+
+.copyright {
+	text-align: center;
+	background-color: #333;
+	width: 100%;
+	margin: 0;
+	padding: 5px 0;
+}
+
+.copyright p {
+	color: #fff;
+	font-size: 15px;
+}
+
+@media (max-width: 767px) {
+	
+	header {
+		height: 275px;
+	}
+	
+	nav .logo {
+	width: 100vw;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	}
+
+	nav .logo h5 {
+	margin: 0 auto;
+	}
+	
+	header > nav > ul {
+		float: none;
+	
+	}
+	
+	header > nav > ul > li {
+		display: block;
+		margin: 0 auto;
+	}
+	
+	header > nav > ul > li > a {
+		text-align: center;
+	}
+	
+	
+	.slogan {
+		padding: 0;	
+	}
+
+	.slogan h1 {
+		font-size: 4em;
+		font-weight: 100;
+		padding-bottom: 0;
+		margin-top: 0;	
+	}
+
+
+	.slogan p {
+		font-size: 1.2em;
+		margin-bottom: 10px;
+
+	}
+	
+	.feature {
+		width: 100%;
+		float: none;
+		padding: 10px;
+		margin-top: 50px;
+	}
+	
+	.container.row {
+    	width: 100vw;
+    	padding: 0 10px;
+	}
+
+	.people {
+		width: 100%;
+	}
+	
+	h3 {
+		font-size: 3.3em;
+	}
+	
+	.row [class*='col-'] {
+		float: none;
+		width: 100%;
+	}
+	
+	.row [class*='col-'] .layer {
+		display: block;
+	}
+	
+	
+.row > .col-40a > .layer > i,
+.row > .col-40b > .layer > i,
+.row > .col-20a > .layer > i,
+.row > .col-20b > .layer > i,
+.row > .col-20c > .layer > i,
+.row > .col-20d > .layer > i,
+.row > .col-20e > .layer > i,
+.row > .col-20f > .layer > i {
+	padding: 10px 40px;
+	}
+		
+	
+	.offset {
+	margin-left: 0;
+	}
+	
+	.picture {
+		width: 100%;
+		float: none
+	}
+
+	.wine {
+		margin: 20px auto;
+	}
+
+	.headlines {
+		width: 97%;
+		float: none;
+		margin-top: 10px;
+	}
+	
+	.text65,
+	.text30 {
+		float: none;
+		text-align: left;
+		margin: 0;
+		width: 100%;
+	}
+	
+	.numbers {
+		width: 50%;
+		float: left;
+		text-align: center;
+	}
+
+ 	.numbers > .nb {
+		font-size: 40px;
+		font-weight: 900;
+	}
+
+	.numbers > p {
+		font-weight: 900;
+		font-size: 15px;
+	}
+
+
+	footer .container .row {
+		width: 100vw;
+		margin: 0 auto;
+	}
+
+	.about,
+	.touch,
+	.social {
+		width: 100%;
+		float: none;
+	}
+
+	footer .about  h4,
+	footer .touch  h4,
+	footer .social h4 {
+	font-size: 18px;
+	}
+	
+	footer .about p,
+	footer .touch p,
+	footer .social p {
+		font-size: 15px;
+	}	
+}	
+
+@media (min-width: 768px) and (max-width: 1199px) {
+	
+	header {
+		height: 70px;
+		width: 100vw;
+	}
+	
+	nav .logo {
+	
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	}
+
+	
+	header > nav > ul {
+		float: right;
+	
+	}
+	
+	header > nav > ul > li {
+		display: inline-block;
+		margin: 0 auto;
+	}
+	
+	header > nav > ul > li > a {
+		text-align: center;
+	}
+	
+	
+	.container.row {
+    	width: 100vw;
+    	padding: 0 10px;
+	}
+
+	.people {
+		width: 50%;
+	}
+	
+	h3 {
+		font-size: 3.3em;
+	}
+	
+	.row [class*='col-'] {
+		float: none;
+		width: 60%
+		margin: 40px auto
+	}
+	
+	.row [class*='col-'] .layer {
+		display: none;
+	}
+		
+	
+	.picture {
+		width: 100%;
+		float: none
+	}
+
+	.wine {
+		margin: 20px auto;
+	}
+
+	.headlines {
+		width: 100%;
+		float: none;
+		margin-top: 10px;
+	}
+	
+	.text65 {
+		float: left;
+		margin: 0;
+		margin-right: 2%;
+	}
+	
+	.text30 {
+		float: none;
+		text-align: left;
+		width: 97%;
+
+	}
+	
+	.numbers {
+		width: 50%;
+		float: left;
+		text-align: center;
+	}
+
+ 	.numbers > .nb {
+		font-size: 55px;
+		font-weight: 900;
+	}
+
+	.numbers > p {
+		font-weight: 900;
+		font-size: 17px;
+	}
+
+
+	footer .container .row {
+		width: 100vw;
+		margin: 0 auto;
+	}
+
+	.about,
+	.touch,
+	.social {
+		width: 100%;
+		float: none;
+	}
+
+	footer .about  h4,
+	footer .touch  h4,
+	footer .social h4 {
+	font-size: 18px;
+	}
+	
+	footer .about p,
+	footer .touch p,
+	footer .social p {
+		font-size: 15px;
+	}	
+	
+	.feature {
+		width: 70%;
+		float: none;
+		padding: 10px;
+		margin: 50px auto;
+	}
+}	

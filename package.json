@@ -1,0 +1,27 @@
+{
+  "name": "vineyard-kodilla",
+  "version": "1.0.0",
+  "description": "projekct for vineyard",
+  "main": "index.js",
+  "scripts": {
+    "test": "vineyard-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joastr/vineyard.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Joanna Strzelecka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joastr/vineyard/issues"
+  },
+  "homepage": "https://github.com/joastr/vineyard#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-sass": "^1.2.1"
+  }
+}
